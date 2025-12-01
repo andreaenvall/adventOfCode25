@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	one "github.com/andreaenvall/adventOfCode25/one"
+	days "github.com/andreaenvall/adventOfCode25/days"
 )
 
 func main() {
 	fmt.Println("Day one solution:")
-	fmt.Println(one.DayOne())
+	fmt.Println(days.DayOne())
 }

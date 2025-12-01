@@ -64,7 +64,7 @@ func FindCode(input []string) (int, int) {
 
 func PuzzleInput2() []string {
 	var linearray []string
-	f, _ := os.Open("one/puzzleinput.txt")
+	f, _ := os.Open("days/puzzleinputday1.txt")
 
 	r := bufio.NewReader(f)
 	for {
