@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	one "github.com/andreaenvall/adventOfCode25/one"
+)
 
 func main() {
-	fmt.Println("Hello, Advent of Code 2025!")
+	fmt.Println("Day one solution:")
+	fmt.Println(one.DayOne())
 }
