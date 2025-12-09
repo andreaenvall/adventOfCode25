@@ -1,4 +1,4 @@
-package one
+package days
 
 import (
 	"bufio"
@@ -9,7 +9,7 @@ import (
 )
 
 func DayOne() string {
-	part1, part2 := FindCode(PuzzleInput2())
+	part1, part2 := FindCode(PuzzleInput1())
 	return fmt.Sprintf("Part 1: %d, Part 2: %d", part1, part2)
 }
 
@@ -59,7 +59,7 @@ func FindCode(input []string) (int, int) {
 	return zerosCountpart1, zerosCountpart2
 }
 
-func PuzzleInput2() []string {
+func PuzzleInput1() []string {
 	var linearray []string
 	f, _ := os.Open("days/puzzleinputday1.txt")
 
